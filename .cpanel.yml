@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dhakaexp/smartchemcable.com
+    - /bin/cp -R images $DEPLOYPATH
