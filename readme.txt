@@ -33,4 +33,4 @@ Then go-to /webdev/scci/sccil/public,
 
 In first time to upload into git repo, open terminal,  type "git init" and hit enter. Then type "git add ." and hit enter. Then type "ssh-add ~/.ssh/id_rsa" hit enter, if no passcode, hit enter. Then type "git remote add origin git@github.com:ronibd0/sccil-public.git" and press enter. Then type "git remote set-url origin https://github.com/ronibd0/sccil-public" and hit enter. Then type "git commit -m "First commit" to start first root-commit in git repo. Then type "git push -u origin master" to start upload in git, enter git id and pass to confirm uploading. 
 
-If above in first time already setup, just go-to /webdev/scci/sccil/public ----> type "git push -u origin master" to start upload in git, enter git id and pass to confirm uploading. 
+If above in first time already setup, and if any 2nd update happened, just go-to /webdev/scci/sccil/public ----> type "git init" and hit enter. Then type "git add ." and hit enter.  Then type "git commit -m "First commit" to start first root-commit in git repo. Then type "git push -u origin master" to start upload in git, enter git id and pass to confirm uploading. 
